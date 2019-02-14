@@ -72,6 +72,36 @@
     </tr>
   </table>
     </td>
+    
+ <td>
+  <table>
+  <tr>
+    <td style="text-align:center">Whiskers</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/6.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
+    
+    
+<td>
+  <table>
+  <tr>
+    <td style="text-align:center">Categories</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/7.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
+  
   
   </table>
 
