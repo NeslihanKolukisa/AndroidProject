@@ -108,8 +108,6 @@ User can add comments using this interface. It can also display comments that ot
     </tr>
   </table>
     </td>
-</tr>
-<tr>
     
  <td>
   <table>
