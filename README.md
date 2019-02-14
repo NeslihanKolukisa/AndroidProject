@@ -3,7 +3,7 @@
 ### Screenshots
 <table>
   <tr>
-    <td><center>Home Page</center></td>
+    <td style="text-align:center">Home Page</td>
   </tr>
   <tr>
     <td>
