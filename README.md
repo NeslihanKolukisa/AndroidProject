@@ -13,9 +13,16 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="150">
     </td>
   </tr>
-    </tr>
+       <tr>
+          <td>
+  The user's information and the user-added products are included in this interface.
+  </td>
+          </tr>
+       
+   </tr>
   </table>
   </td>
+ 
   
   <td>
   <table>
@@ -27,9 +34,19 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpeg" width="150">
     </td>
   </tr>
-    </tr>
+    
+   <tr>
+         <td>
+ Here is a list of categories. By selecting any category, the products of that category are listed.
+  </td>
+          </tr>
+          
+   </tr>
   </table>
     </td>
+    
+   </tr>
+   <tr>
     
   <td>
   <table>
