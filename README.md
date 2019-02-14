@@ -2,8 +2,8 @@
 
 ### Screenshots
 
-![Home Page](http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpg)
+![Home Page](http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg)
 
 
-![Menu](http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpg)
+![Menu](http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpeg)
 
