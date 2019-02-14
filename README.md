@@ -7,7 +7,7 @@
         <table>
   <tr>
     <td>Profile</td>
-     <td rowspan="2">
+     <td rowspan="2" valign="top">
   The user's information and the user-added products are included in this interface.
   </td>
   </tr>
