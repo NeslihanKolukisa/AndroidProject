@@ -30,18 +30,16 @@
   <table>
   <tr>
     <td style="text-align:center">Menu</td>
+     <td rowspan="2" valign="top">
+ Here is a list of categories. By selecting any category, the products of that category are listed.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpeg" width="150">
     </td>
   </tr>
-   <tr>
-         <td>
- Here is a list of categories. By selecting any category, the products of that category are listed.
-  </td>
-          </tr>
-          
+    
    </tr>
   </table>
     </td>
