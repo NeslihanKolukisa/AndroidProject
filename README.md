@@ -1,10 +1,10 @@
 # AndroidProject
 
 ### Screenshots
-  <table>
+  <table width="100%">
     <tr>
-      <td>
-        <table>
+      <td width="100%">
+        <table width="100%">
   <tr>
     <td>Profile</td>
      <td rowspan="2" valign="top" width="75%">
@@ -26,8 +26,8 @@
  <tr>
  
   
-  <td>
-  <table>
+  <td width="100%">
+  <table width="100%">
   <tr>
     <td style="text-align:center">Menu</td>
      <td rowspan="2" valign="top" width="75%">
