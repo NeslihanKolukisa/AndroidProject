@@ -7,7 +7,7 @@
         <table>
   <tr>
     <td>Profile</td>
-     <td rowspan="2" valign="top">
+     <td rowspan="2" valign="top" width="100%">
   The user's information and the user-added products are included in this interface.
   </td>
   </tr>
@@ -30,7 +30,7 @@
   <table>
   <tr>
     <td style="text-align:center">Menu</td>
-     <td rowspan="2" valign="top">
+     <td rowspan="2" valign="top" width="100%">
  Here is a list of categories. By selecting any category, the products of that category are listed.
   </td>
   </tr>
