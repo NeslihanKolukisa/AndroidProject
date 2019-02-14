@@ -7,14 +7,15 @@
         <table>
   <tr>
     <td>Profile</td>
+     <td rowspan="2">
+  The user's information and the user-added products are included in this interface.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg"  width="150">
     </td>
-     <td rowspan="2">
-  The user's information and the user-added products are included in this interface.
-  </td>
+    
   </tr>
        
    </tr>
