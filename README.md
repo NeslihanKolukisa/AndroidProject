@@ -15,9 +15,7 @@
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg"  width="150">
     </td>
-    
   </tr>
-       
    </tr>
   </table>
   </td>
@@ -50,18 +48,15 @@
   <table>
   <tr>
     <td style="text-align:center">Add product information</td>
+      <td  rowspan="2" valign="top" width="75%">
+The user can add products using this interface.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/3.jpeg" width="150">
     </td>
   </tr>
-    
-   <tr>
-     <td>
-The user can add products using this interface.
-  </td>
-    </tr>
     </tr>
   </table>
     </td>
@@ -73,17 +68,15 @@ The user can add products using this interface.
   <table>
   <tr>
     <td style="text-align:center">Product information</td>
+      <td  rowspan="2" valign="top" width="75%">
+The user can access detailed information about the product using this interface.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/4.jpeg" width="150">
     </td>
   </tr>
-      <tr>
-     <td>
-The user can access detailed information about the product using this interface.
-  </td>
-    </tr>
     </tr>
   </table>
     </td>
@@ -95,17 +88,15 @@ The user can access detailed information about the product using this interface.
   <table>
   <tr>
     <td style="text-align:center">Comments</td>
+     <td rowspan="2" valign="top" width="75%">
+User can add comments using this interface. It can also display comments that other users have added.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/5.jpeg" width="150">
     </td>
   </tr>
-     <tr>
-     <td>
-User can add comments using this interface. It can also display comments that other users have added.
-  </td>
-    </tr>
     </tr>
   </table>
     </td>
@@ -115,17 +106,15 @@ User can add comments using this interface. It can also display comments that ot
   <table>
   <tr>
     <td style="text-align:center">Whiskers</td>
+       <td rowspan="2" valign="top" width="75%">
+Users like the products are located in this interface. The user can remove the product he likes from here.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/6.jpeg" width="150">
     </td>
   </tr>
-     <tr>
-     <td>
-Users like the products are located in this interface. The user can remove the product he likes from here.
-  </td>
-    </tr>
     </tr>
   </table>
     </td>
