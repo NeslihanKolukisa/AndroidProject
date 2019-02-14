@@ -9,7 +9,7 @@
     <td style="text-align:center">Profile</td>
   </tr>
   <tr>
-    <td>
+    <td style="v-align:center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="150">
     </td>
   </tr>
@@ -219,5 +219,4 @@ This is the first interface users encounter after logging in to the system. This
 
 
 
-![Menu](http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpeg =250x250)
 
