@@ -129,6 +129,8 @@ Users like the products are located in this interface. The user can remove the p
     </td>
     
  </tr>
+ 
+ 
  <tr>
     
 <td>
@@ -170,7 +172,7 @@ This is the first interface users encounter after logging in to the system. This
   </table>
     </td>
     
-  </tr>
+
   <tr>
    <td>
   <table>
