@@ -12,16 +12,17 @@
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg"  width="150">
     </td>
-  </tr>
-       <tr>
-          <td>
+     <td rowspan="2">
   The user's information and the user-added products are included in this interface.
   </td>
-          </tr>
+  </tr>
        
    </tr>
   </table>
   </td>
+  
+ </tr>
+ <tr>
  
   
   <td>
@@ -34,7 +35,6 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpeg" width="150">
     </td>
   </tr>
-    
    <tr>
          <td>
  Here is a list of categories. By selecting any category, the products of that category are listed.
@@ -44,7 +44,6 @@
    </tr>
   </table>
     </td>
-    
    </tr>
    <tr>
     
@@ -67,6 +66,9 @@ The user can add products using this interface.
     </tr>
   </table>
     </td>
+    
+ </tr>
+ <tr>
     
  <td>
   <table>
@@ -108,7 +110,8 @@ User can add comments using this interface. It can also display comments that ot
     </tr>
   </table>
     </td>
-    
+     </tr>
+ <tr>
  <td>
   <table>
   <tr>
@@ -129,8 +132,6 @@ Users like the products are located in this interface. The user can remove the p
     </td>
     
  </tr>
- 
- 
  <tr>
     
 <td>
@@ -151,7 +152,8 @@ User can reach categories with this interface
   </tr>
   </table>
     </td>
-    
+    </tr>
+ <tr> 
     
  <td>
   <table>
@@ -193,7 +195,8 @@ This is the first interface users encounter after logging in to the system. This
   </table>
     </td>
     
-    
+ </tr>
+ <tr>    
   <td>
   <table>
   <tr>
