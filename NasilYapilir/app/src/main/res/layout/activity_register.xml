@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/statusBar">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/icon_white"></android.support.v7.widget.AppCompatImageView>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutKullaniciAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+            android:id="@+id/textInputEditTextKullaniciAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı Adı"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutSifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextSifre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_confirm_password"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/textInputEditTextAd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ad"
+            android:textColorHint="@color/white"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/white">
+        </android.support.design.widget.TextInputEditText>
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextSoyad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soyad"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextTC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TC"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutTelefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextTelefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Telefon"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mail"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutAdres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextAdres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Adres"
+                android:textColorHint="@color/white"
+                android:inputType="text"
+                android:maxLines="4"
+                android:lines="4"
+                android:textColor="@color/white">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/statusBar"
+            android:text="@string/text_register"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textViewLinkRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/text_already_member"
+            android:textSize="16sp"
+            android:textColor="@color/ortaGri"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.neslihan.myapplication">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk android:targetSdkVersion="28" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="NASIL YAPILIR?"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".activities.GirisEkrani"
+            android:label="NASIL YAPILIR?"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="NASIL YAPILIR?"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.UsersActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.ProfActivity" />
+        <activity android:name=".activities.UrunGorselEkleActivity"/>
+        <activity android:name=".activities.UrunBilgiEkleActivity"/>
+        <activity android:name=".activities.UrunDetayActivity"/>
+        <activity android:name=".activities.UrunYorumActivity"/>
+        <activity android:name=".activities.KategoriUrunActivity"/>
+        <activity android:name=".activities.KategoriSecActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.ALTERNATIVE" />
+        </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+
+        <service android:name=".helper.NotificationService" android:exported="false">
+
+        </service>
+        <service android:name=".helper.BootReceiver">
+            <intent-filter>
+                <action android:name="com.example.mert.androidbackgroundpushnotify"></action>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>

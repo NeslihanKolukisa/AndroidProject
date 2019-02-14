@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/relative_layout_background"
+    android:layout_margin="5dp">
+
+<ImageView
+    android:id="@+id/imgyorumprofil"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="5dp"
+    app:srcCompat="@drawable/rounded_fg" />
+
+    <TextView
+        android:id="@+id/txtyorumprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:text="Yorumlar" />
+
+    <TextView
+        android:id="@+id/txtyorummetni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        android:textSize="11dp"
+        android:text="Yorumlar" />
+
+    <TextView
+        android:id="@+id/txtyorumtarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        android:textSize="8dp"
+        android:text="Yorumlar" />
+
+</RelativeLayout>

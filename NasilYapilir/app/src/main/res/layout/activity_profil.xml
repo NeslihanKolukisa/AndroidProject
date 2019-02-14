@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textViewProfArkRes"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewProf"
+        android:layout_width="100dp"
+        android:src="@drawable/red_minus_icon"
+        android:background="@color/white"
+        android:padding="3dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtUrunlerimBaslik"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:text="Ürünlerim"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/statusBar"
+        android:paddingLeft="6dp"
+        android:paddingTop="3dp"
+        android:background="@drawable/yaziarka"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/txtkuladk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="190dp"
+        android:text="TextView" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="10dp"
+        android:columnWidth="80dp"
+        android:numColumns="2"
+        android:verticalSpacing="16dp"
+        android:horizontalSpacing="16dp"
+        android:padding="16dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:background="#F1F1F1"
+
+        />
+
+
+</RelativeLayout>

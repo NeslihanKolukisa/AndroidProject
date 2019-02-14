@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">İsim</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Şifre</string>
+    <string name="hint_confirm_password">Şifreyi Onayla</string>
+    <string name="text_login">Giriş</string>
+    <string name="text_register">Üye Ol</string>
+    <string name="error_message_name">Tam adınızı girin</string>
+    <string name="error_message_email">Geçerli e-posta girin</string>
+    <string name="error_message_age">Yaşınızı girin</string>
+    <string name="error_message_password">Şifreyi girin</string>
+    <string name="success_message">Giriş başarıyla yapıldı</string>
+    <string name="success_message_register">Üye kaydınız başarıyla yapıldı.</string>
+    <string name="text_not_member">Henüz bir hesabınız yok mu? Şimdi oluşturun</string>
+    <string name="text_already_member">Böyle bir üye zaten var. Giriş yapın</string>
+    <string name="error_email_exits">Bu e-posta zaten var</string>
+    <string name="error_password_match">Şifreler eşleşmiyor</string>
+    <string name="error_valid_email_password">Yanlış e-posta veya şifre</string>
+    <string name="text_not_prof_duzenle">Profili Düzenle</string>
+
+</resources>

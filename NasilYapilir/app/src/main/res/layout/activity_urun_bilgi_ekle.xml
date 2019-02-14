@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="#FF9999">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutUrunBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextUrunBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ürün Başlığı"
+                android:textColorHint="#333333"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#333333">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutUrunTanim"
+            android:hint="Ürün Tanımı"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextUrunTanim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:maxLines="1"
+                android:textColor="#333333">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputUrunAciklama"
+            android:hint="Ürün Açıklama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextUrunAciklama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:maxLines="5"
+                android:textColor="#333333">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutMalzemeler"
+            android:hint="Malzemeler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditTextMalzemeler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:maxLines="1"
+                android:textColor="#333333">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutYapilmaSuresi"
+            android:hint="Yapılma Süresi (saat)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textInputEditYapilmaSuresi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#333333">
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/appCompatButtonUrunEkle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/white"
+            android:background="@color/white"
+            android:textColor="@color/statusBar"
+            android:text="KAYDET"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

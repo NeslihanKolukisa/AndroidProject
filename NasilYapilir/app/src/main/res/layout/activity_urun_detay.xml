@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgUrunDetay"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/txtUrunBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtUrunTanim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtUrunBaslik"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="44dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtmalzemeler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="414dp"
+        android:text="TextView"
+        android:textColor="#336600" />
+
+
+
+
+    <TextView
+        android:id="@+id/txtYapilmaSuresi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginBottom="285dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtUrunBaslik"
+        android:layout_alignBottom="@+id/imgUrunDetay"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="60dp"
+        android:text="Malzemeler: "
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="275dp"/>
+
+
+    <EditText
+        android:id="@+id/txtUrunAciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginBottom="191dp"
+        android:justificationMode="inter_word"
+        android:ems="27"
+        android:lines="10"
+        android:textSize="12dp"
+        android:textColor="#333333"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgUrunDetay"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="256dp"
+        android:text="Açıklama:"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagetimes"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="207dp"
+        app:srcCompat="@drawable/times" />
+
+
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/relative_layout_background">
+        <TextView
+            android:id="@+id/txtYorumlarBaslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:text="Yorumlar" />
+
+        <ImageView
+            android:id="@+id/imgYorumpprofil"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/rounded_fg" />
+
+        <TextView
+            android:id="@+id/txtyorumprofil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:text="Yorumlar" />
+
+        <ImageView
+            android:id="@+id/imguuser"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/user" />
+        <Button
+            android:id="@+id/txtlinkYorumYaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Merak ettiklerini sor"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="29dp"
+            android:padding="-30dp"
+            android:textColorHint="#000000"
+            android:inputType="text"
+            android:background="@drawable/backwithborder"
+            android:maxLines="1"
+            android:textColor="#000000">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtYapilmaSuresi"
+        android:layout_alignStart="@+id/txtUrunAciklama"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="-208dp"
+        android:text="Süre" />
+</RelativeLayout>
