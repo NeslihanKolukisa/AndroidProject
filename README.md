@@ -3,11 +3,11 @@
 ### Screenshots
 <table>
   <tr>
-    <td>Home Page</td>
+    <td><center>Home Page</center></td>
   </tr>
   <tr>
     <td>
-<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="100">
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="150">
     </td>
   </tr>
   </table>
