@@ -182,7 +182,12 @@ This is the first interface users encounter after logging in to the system. This
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/9.jpeg" width="150">
     </td>
   </tr>
+    <tr>
+     <td>
+  It is the user interface for the user to be a member of the system.
+  </td>
     </tr>
+   </tr>
   </table>
     </td>
     
@@ -197,6 +202,12 @@ This is the first interface users encounter after logging in to the system. This
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/10.jpeg" width="150">
     </td>
   </tr>
+    <tr>
+     <td>
+    It is the interface that will be used for users to login to the system.
+  </td>
+    </tr>
+  
     </tr>
   </table>
     </td>
