@@ -6,11 +6,11 @@
       <td>
         <table>
   <tr>
-    <td style="text-align:center">Profile</td>
+    <td>Profile</td>
   </tr>
   <tr>
-    <td style="v-align:center">
-<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="150">
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" align="center" width="150">
     </td>
   </tr>
        <tr>
