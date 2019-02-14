@@ -44,6 +44,34 @@
     </tr>
   </table>
     </td>
+    
+ <td>
+  <table>
+  <tr>
+    <td style="text-align:center">Product information</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/4.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
+    
+ <td>
+  <table>
+  <tr>
+    <td style="text-align:center">Comments</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/5.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
   
   </table>
 
