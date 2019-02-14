@@ -9,8 +9,8 @@
     <td>Profile</td>
   </tr>
   <tr>
-    <td>
-<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" align="center" width="150">
+    <td align="center">
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg"  width="150">
     </td>
   </tr>
        <tr>
