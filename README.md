@@ -8,7 +8,7 @@
   <tr>
     <td>Profile</td>
      <td rowspan="2" valign="top" width="75%">
-  The user's information and the user-added products are included in this interface.
+  The user's information and the user-added products are included in this interface.           
   </td>
   </tr>
   <tr>
