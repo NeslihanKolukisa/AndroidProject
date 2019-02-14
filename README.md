@@ -126,17 +126,15 @@ Users like the products are located in this interface. The user can remove the p
   <table>
   <tr>
     <td style="text-align:center">Categories</td>
+     <td rowspan="2" valign="top" width="75%">
+User can reach categories with this interface
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/7.jpeg" width="150">
     </td>
   </tr>
-     <tr>
-     <td>
-User can reach categories with this interface
-  </td>
-    </tr>
   </tr>
   </table>
     </td>
@@ -147,17 +145,15 @@ User can reach categories with this interface
   <table>
   <tr>
     <td style="text-align:center">Home Page</td>
+    <td rowspan="2" valign="top" width="75%">
+This is the first interface users encounter after logging in to the system. This interface has a slider above. Below the slider is a list of products.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/8.jpeg" width="150">
     </td>
   </tr>
-    <tr>
-     <td>
-This is the first interface users encounter after logging in to the system. This interface has a slider above. Below the slider is a list of products.
-  </td>
-    </tr>
     </tr>
   </table>
     </td>
@@ -168,17 +164,15 @@ This is the first interface users encounter after logging in to the system. This
   <table>
   <tr>
     <td style="text-align:center">Sign Up</td>
+      <td rowspan="2" valign="top" width="75%">
+  It is the user interface for the user to be a member of the system.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/9.jpeg" width="150">
     </td>
   </tr>
-    <tr>
-     <td>
-  It is the user interface for the user to be a member of the system.
-  </td>
-    </tr>
    </tr>
   </table>
     </td>
@@ -189,17 +183,15 @@ This is the first interface users encounter after logging in to the system. This
   <table>
   <tr>
     <td style="text-align:center">Login</td>
+    <td rowspan="2" valign="top" width="75%">
+    It is the interface that will be used for users to login to the system.
+  </td>
   </tr>
   <tr>
     <td align="center">
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/10.jpeg" width="150">
     </td>
   </tr>
-    <tr>
-     <td>
-    It is the interface that will be used for users to login to the system.
-  </td>
-    </tr>
   
    </tr>
   </table>
