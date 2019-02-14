@@ -4,6 +4,8 @@
 <table>
   <tr>
     <td>Home Page</td>
+  </tr>
+  <tr>
     <td>
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="100">
     </td>
