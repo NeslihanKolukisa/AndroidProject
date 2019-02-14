@@ -18,14 +18,27 @@
   </td>
   
   <td>
-  
   <table>
   <tr>
-    <td style="text-align:center">Home Page</td>
+    <td style="text-align:center">Menu</td>
   </tr>
   <tr>
     <td>
-<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="150">
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/2.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
+    
+  <td>
+  <table>
+  <tr>
+    <td style="text-align:center">Add product information</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/3.jpeg" width="150">
     </td>
   </tr>
     </tr>
