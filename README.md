@@ -6,7 +6,7 @@
       <td>
         <table>
   <tr>
-    <td style="text-align:center">Home Page</td>
+    <td style="text-align:center">Profile</td>
   </tr>
   <tr>
     <td>
@@ -72,6 +72,8 @@
     </tr>
   </table>
     </td>
+</tr>
+<tr>
     
  <td>
   <table>
@@ -101,6 +103,38 @@
     </tr>
   </table>
     </td>
+    
+    
+ <td>
+  <table>
+  <tr>
+    <td style="text-align:center">Home Page</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/8.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
+    
+    
+   <td>
+  <table>
+  <tr>
+    <td style="text-align:center">Sign Up</td>
+  </tr>
+  <tr>
+    <td>
+<img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/9.jpeg" width="150">
+    </td>
+  </tr>
+    </tr>
+  </table>
+    </td>
+    
+  </tr>
   
   
   </table>
