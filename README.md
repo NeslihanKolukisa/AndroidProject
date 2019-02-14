@@ -1,7 +1,14 @@
 # AndroidProject
 
 ### Screenshots
+<table>
+  <tr>
+    <td>Home Page</td>
+    <td>
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/1.jpeg" width="100">
+    </td>
+  </tr>
+  </table>
 
 
 
