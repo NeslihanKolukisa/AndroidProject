@@ -172,7 +172,7 @@ This is the first interface users encounter after logging in to the system. This
   </table>
     </td>
     
-
+</tr>
   <tr>
    <td>
   <table>
@@ -210,7 +210,7 @@ This is the first interface users encounter after logging in to the system. This
   </td>
     </tr>
   
-    </tr>
+   </tr>
   </table>
     </td>
     
