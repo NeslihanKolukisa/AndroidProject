@@ -58,6 +58,12 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/3.jpeg" width="150">
     </td>
   </tr>
+    
+   <tr>
+     <td>
+The user can add products using this interface.
+  </td>
+    </tr>
     </tr>
   </table>
     </td>
@@ -72,9 +78,17 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/4.jpeg" width="150">
     </td>
   </tr>
+      <tr>
+     <td>
+The user can access detailed information about the product using this interface.
+  </td>
+    </tr>
     </tr>
   </table>
     </td>
+    
+ </tr>
+ <tr>
     
  <td>
   <table>
@@ -86,6 +100,11 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/5.jpeg" width="150">
     </td>
   </tr>
+     <tr>
+     <td>
+User can add comments using this interface. It can also display comments that other users have added.
+  </td>
+    </tr>
     </tr>
   </table>
     </td>
@@ -102,10 +121,17 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/6.jpeg" width="150">
     </td>
   </tr>
+     <tr>
+     <td>
+Users like the products are located in this interface. The user can remove the product he likes from here.
+  </td>
+    </tr>
     </tr>
   </table>
     </td>
     
+ </tr>
+ <tr>
     
 <td>
   <table>
@@ -117,7 +143,12 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/7.jpeg" width="150">
     </td>
   </tr>
+     <tr>
+     <td>
+User can reach categories with this interface
+  </td>
     </tr>
+  </tr>
   </table>
     </td>
     
@@ -132,11 +163,17 @@
 <img src="http://tubitak.ozkanunsal.com/AndroidProjectScreenshots/8.jpeg" width="150">
     </td>
   </tr>
+    <tr>
+     <td>
+This is the first interface users encounter after logging in to the system. This interface has a slider above. Below the slider is a list of products.
+  </td>
+    </tr>
     </tr>
   </table>
     </td>
     
-    
+  </tr>
+  <tr>
    <td>
   <table>
   <tr>
